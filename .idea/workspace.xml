@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4afd2db8-45aa-48f4-9ab2-8cb292875b78" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameCatalog/Repository/ControllersRepository.php" afterPath="$PROJECT_DIR$/GameCatalog/Repository/ControllersRepository.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameCatalog/Repository/ControllersRepositoryInterface.php" afterPath="$PROJECT_DIR$/GameCatalog/Repository/ControllersRepositoryInterface.php" />
-    </list>
+    <list default="true" id="4afd2db8-45aa-48f4-9ab2-8cb292875b78" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,16 +95,6 @@
                 <marker date="1510482844000" expanded="true" signature="687:721" ph="SELECT * FRO... reasons" />
                 <marker date="1510482844000" expanded="true" signature="920:1298" ph="SELECT reaso... " />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ControllersRepositoryInterface.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GameCatalog/Repository/ControllersRepositoryInterface.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -541,12 +527,12 @@
       <workItem from="1515506266418" duration="7976000" />
       <workItem from="1515521083142" duration="6886000" />
       <workItem from="1515676638401" duration="13357000" />
-      <workItem from="1515784641291" duration="1861000" />
+      <workItem from="1515784641291" duration="2498000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46897000" />
+    <option name="totallyTimeSpent" value="47534000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -966,6 +952,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/GameCatalog/Repository/ControllersRepositoryInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../exam na gosho/MyMoney/Repository/ReasonRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-154">
@@ -975,14 +969,6 @@
             <marker date="1510482844000" expanded="true" signature="687:721" ph="SELECT * FRO... reasons" />
             <marker date="1510482844000" expanded="true" signature="920:1298" ph="SELECT reaso... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GameCatalog/Repository/ControllersRepositoryInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
