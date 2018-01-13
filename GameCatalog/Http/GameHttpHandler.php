@@ -30,7 +30,6 @@ class GameHttpHandler extends HttpHandlerAbstract
     public function all()
     {
         $games = $this->gameService->getAll();
-
         $this->render('games/all', $games);
     }
 
@@ -44,6 +43,7 @@ class GameHttpHandler extends HttpHandlerAbstract
             $categories = $controllerService->getAll();
             $this->render("games/add", $categories);
         } else {
+
             $this->handleInsertProcess($gameService, $controllerService, $userService, $formData);
         }
     }
