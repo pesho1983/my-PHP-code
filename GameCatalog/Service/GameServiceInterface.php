@@ -22,7 +22,5 @@ interface GameServiceInterface
 
     public function view(int $id): GameDTO;
 
-    //public function getDashboard(): DashboardDTO;
-
     public function getAll(): \Generator;
 }

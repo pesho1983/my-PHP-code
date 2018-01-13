@@ -1,7 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Petar Aleksandrov
- * Date: 1/3/2018
- * Time: 11:35 AM
- */
+require_once "common.php";
+$controllerRepo = new \GameCatalog\Repository\ControllersRepository($db, $dataBinder);
+$controllersService = new \GameCatalog\Service\ControllersService($controllerRepo);
+$controllersHandler = new \GameCatalog\Http\ControllersHttpHandler($template, $dataBinder, $controllersService);
+
+$controllersHandler->report();

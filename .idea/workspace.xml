@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4afd2db8-45aa-48f4-9ab2-8cb292875b78" name="Default" comment="" />
+    <list default="true" id="4afd2db8-45aa-48f4-9ab2-8cb292875b78" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameCatalog/Repository/ControllersRepository.php" afterPath="$PROJECT_DIR$/GameCatalog/Repository/ControllersRepository.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,39 +77,15 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="report.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GameCatalog/Templates/home/report.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReasonRepository.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../exam na gosho/MyMoney/Repository/ReasonRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-154">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1510482844000" expanded="true" signature="500:528" ph="SELECT id, n... reasons" />
-                <marker date="1510482844000" expanded="true" signature="687:721" ph="SELECT * FRO... reasons" />
-                <marker date="1510482844000" expanded="true" signature="920:1298" ph="SELECT reaso... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ControllersRepository.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GameCatalog/Repository/ControllersRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="399">
+              <caret line="54" column="16" lean-forward="false" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
               <folding>
-                <marker date="1515789497076" expanded="true" signature="502:545" ph="SELECT id, n... controllers" />
-                <marker date="1515789497076" expanded="true" signature="741:779" ph="SELECT id, n... categories" />
-                <marker date="1515789497076" expanded="true" signature="1002:1412" ph="SELECT connt... controllers" />
+                <marker date="1515862023016" expanded="true" signature="536:579" ph="SELECT id, n... controllers" />
+                <marker date="1515862023016" expanded="true" signature="775:813" ph="SELECT id, n... categories" />
+                <marker date="1515862023016" expanded="true" signature="1024:1445" ph="SELECT contr... controllers" />
               </folding>
             </state>
           </provider>
@@ -128,7 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Config/db.ini" />
         <option value="$PROJECT_DIR$/GameCatalog/Templates/RegisterTemplate.html" />
         <option value="$PROJECT_DIR$/GameCatalog/Templates/login.php" />
         <option value="$PROJECT_DIR$/GameCatalog/Templates/addGame.html" />
@@ -156,9 +133,6 @@
         <option value="$PROJECT_DIR$/GameCatalog/Service/UserService.php" />
         <option value="$PROJECT_DIR$/dashboard.php" />
         <option value="$PROJECT_DIR$/GameCatalog/Http/HomeHttpHandler.php" />
-        <option value="$PROJECT_DIR$/games.php" />
-        <option value="$PROJECT_DIR$/GameCatalog/Service/GameServiceInterface.php" />
-        <option value="$PROJECT_DIR$/GameCatalog/Templates/games/all.php" />
         <option value="$PROJECT_DIR$/add_game.php" />
         <option value="$PROJECT_DIR$/delete.php" />
         <option value="$PROJECT_DIR$/GameCatalog/DTO/GameDTO.php" />
@@ -167,14 +141,21 @@
         <option value="$PROJECT_DIR$/edit_game.php" />
         <option value="$PROJECT_DIR$/GameCatalog/Http/UserHttpHandler.php" />
         <option value="$PROJECT_DIR$/GameCatalog/DTO/EditTaskDTO.php" />
+        <option value="$PROJECT_DIR$/GameCatalog/DTO/EditGameDTO.php" />
+        <option value="$PROJECT_DIR$/GameCatalog/Repository/GamesRepository.php" />
+        <option value="$PROJECT_DIR$/GameCatalog/Repository/ControllersRepositoryInterface.php" />
+        <option value="$PROJECT_DIR$/GameCatalog/Templates/games/edit.php" />
+        <option value="$PROJECT_DIR$/GameCatalog/Templates/games/all.php" />
+        <option value="$PROJECT_DIR$/GameCatalog/Service/GameService.php" />
+        <option value="$PROJECT_DIR$/GameCatalog/Service/GameServiceInterface.php" />
+        <option value="$PROJECT_DIR$/GameCatalog/Http/GameHttpHandler.php" />
+        <option value="$PROJECT_DIR$/GameCatalog/DTO/StatisticDTO.php" />
+        <option value="$PROJECT_DIR$/GameCatalog/Http/ControllersHttpHandler.php" />
+        <option value="$PROJECT_DIR$/games.php" />
+        <option value="$PROJECT_DIR$/statistics.php" />
         <option value="$PROJECT_DIR$/GameCatalog/Service/ControllersService.php" />
         <option value="$PROJECT_DIR$/GameCatalog/Service/ControllersServiceInterface.php" />
-        <option value="$PROJECT_DIR$/GameCatalog/DTO/EditGameDTO.php" />
-        <option value="$PROJECT_DIR$/GameCatalog/Templates/games/edit.php" />
-        <option value="$PROJECT_DIR$/GameCatalog/Repository/GamesRepository.php" />
-        <option value="$PROJECT_DIR$/GameCatalog/Service/GameService.php" />
-        <option value="$PROJECT_DIR$/GameCatalog/Http/GameHttpHandler.php" />
-        <option value="$PROJECT_DIR$/GameCatalog/Repository/ControllersRepositoryInterface.php" />
+        <option value="$PROJECT_DIR$/GameCatalog/Templates/games/statistics.php" />
         <option value="$PROJECT_DIR$/GameCatalog/Repository/ControllersRepository.php" />
       </list>
     </option>
@@ -527,12 +508,12 @@
       <workItem from="1515506266418" duration="7976000" />
       <workItem from="1515521083142" duration="6886000" />
       <workItem from="1515676638401" duration="13357000" />
-      <workItem from="1515784641291" duration="2498000" />
+      <workItem from="1515784641291" duration="10311000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47534000" />
+    <option name="totallyTimeSpent" value="55347000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -570,75 +551,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GameCatalog/Service/UserService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="26" column="76" lean-forward="false" selection-start-line="26" selection-start-column="76" selection-end-line="26" selection-end-column="76" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exam na gosho/MyMoney/DTO/ReasonDTO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exam na gosho/MyMoney/Http/HomeHttpHandler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exam na gosho/operations.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GameCatalog/Service/GameServiceInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" column="6" lean-forward="false" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-          <folding>
-            <element signature="e#135#168#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exam na gosho/MyMoney/Http/OperationHttpHandler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="49" column="5" lean-forward="true" selection-start-line="48" selection-start-column="3" selection-end-line="49" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exam na gosho/MyMoney/Service/OperationService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../16. Exam-prepare-Demos/add_task.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="7" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/add_game.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../16. Exam-prepare-Demos/TaskManagement/Templates/home/report.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -672,6 +584,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -720,36 +633,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameCatalog/Templates/games/all.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="78" lean-forward="true" selection-start-line="25" selection-start-column="78" selection-end-line="25" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard.php" />
-    <entry file="file://$PROJECT_DIR$/GameCatalog/Http/HomeHttpHandler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard.php" />
     <entry file="file://$PROJECT_DIR$/GameCatalog/Http/UserHttpHandler.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
@@ -770,22 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="518">
           <caret line="34" column="62" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GameCatalog/Service/ControllersServiceInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GameCatalog/Service/ControllersService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -810,13 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameCatalog/Templates/games/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GameCatalog/DTO/EditGameDTO.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -837,6 +706,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="82" lean-forward="false" selection-start-line="7" selection-start-column="82" selection-end-line="7" selection-end-column="82" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -847,53 +717,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameCatalog/Service/GameService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../16. Exam-prepare-Demos/TaskManagement/Http/TaskHttpHandler.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="807">
           <caret line="66" column="48" lean-forward="false" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GameCatalog/Repository/GamesRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="144" column="26" lean-forward="false" selection-start-line="144" selection-start-column="26" selection-end-line="144" selection-end-column="26" />
-          <folding>
-            <element signature="e#3185#3658#0#PHP" expanded="false" />
-            <element signature="e#4406#4582#0#PHP" expanded="false" />
-            <marker date="1515699838686" expanded="true" signature="759:1179" ph="SELECT games... games" />
-            <marker date="1515699838686" expanded="true" signature="759:1182" ph="SELECT games... games" />
-            <marker date="1515699838686" expanded="true" signature="1314:1414" ph="/** * @var G... " />
-            <marker date="1515699838686" expanded="true" signature="1935:2695" ph="SELECT games... games" />
-            <marker date="1515699838686" expanded="true" signature="3253:3387" ph="INSERT INTO games... " />
-            <marker date="1515699838686" expanded="true" signature="3754:4026" ph="UPDATE tasks... " />
-            <marker date="1515699838686" expanded="true" signature="4468:4504" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GameCatalog/Http/GameHttpHandler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="84" column="12" lean-forward="false" selection-start-line="84" selection-start-column="12" selection-end-line="84" selection-end-column="12" />
-          <folding>
-            <element signature="e#36#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GameCatalog/Templates/games/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -924,14 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exam na gosho/MyMoney/Repository/OperationRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-185">
-          <caret line="63" column="6" lean-forward="true" selection-start-line="63" selection-start-column="6" selection-end-line="75" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../16. Exam-prepare-Demos/TaskManagement/Repository/CategoryRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="628">
@@ -944,11 +763,184 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/GameCatalog/Templates/games/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameCatalog/Templates/games/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameCatalog/Templates/home/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GameCatalog/Templates/home/report.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameCatalog/Templates/users/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exam na gosho/MyMoney/Repository/UserRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1510482844000" expanded="true" signature="416:622" ph="SELECT id, u... users" />
+            <marker date="1510482844000" expanded="true" signature="866:1136" ph="INSERT INTO users" />
+            <marker date="1510482844000" expanded="true" signature="1482:1682" ph="SELECT id, u... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exam na gosho/MyMoney/Repository/OperationRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="63" column="6" lean-forward="true" selection-start-line="63" selection-start-column="6" selection-end-line="75" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exam na gosho/MyMoney/DTO/StatisticDTO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-392">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameCatalog/Http/HomeHttpHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameCatalog/Http/GameHttpHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#36#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameCatalog/DTO/StatisticDTO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistics.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameCatalog/Http/ControllersHttpHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="32" column="49" lean-forward="false" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameCatalog/Service/GameServiceInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameCatalog/Service/GameService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="64" column="40" lean-forward="true" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exam na gosho/MyMoney/Repository/ReasonRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="46" column="46" lean-forward="true" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
+          <folding>
+            <marker date="1510482844000" expanded="true" signature="500:528" ph="SELECT id, n... reasons" />
+            <marker date="1510482844000" expanded="true" signature="687:721" ph="SELECT * FRO... reasons" />
+            <marker date="1510482844000" expanded="true" signature="920:1298" ph="SELECT reaso... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameCatalog/Service/ControllersServiceInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+          <folding>
+            <element signature="e#135#170#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameCatalog/Templates/games/all.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameCatalog/Repository/GamesRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1878">
+          <caret line="144" column="26" lean-forward="false" selection-start-line="144" selection-start-column="26" selection-end-line="144" selection-end-column="26" />
+          <folding>
+            <element signature="e#4406#4582#0#PHP" expanded="false" />
+            <marker date="1515699838686" expanded="true" signature="759:1179" ph="SELECT games... games" />
+            <marker date="1515699838686" expanded="true" signature="759:1182" ph="SELECT games... games" />
+            <marker date="1515699838686" expanded="true" signature="1314:1414" ph="/** * @var G... " />
+            <marker date="1515699838686" expanded="true" signature="1935:2695" ph="SELECT games... games" />
+            <marker date="1515699838686" expanded="true" signature="3253:3387" ph="INSERT INTO games... " />
+            <marker date="1515699838686" expanded="true" signature="3754:4026" ph="UPDATE tasks... " />
+            <marker date="1515699838686" expanded="true" signature="4468:4504" ph="DELETE FROM " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -960,26 +952,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exam na gosho/MyMoney/Repository/ReasonRepository.php">
+    <entry file="file://$PROJECT_DIR$/GameCatalog/Service/ControllersService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-154">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1510482844000" expanded="true" signature="500:528" ph="SELECT id, n... reasons" />
-            <marker date="1510482844000" expanded="true" signature="687:721" ph="SELECT * FRO... reasons" />
-            <marker date="1510482844000" expanded="true" signature="920:1298" ph="SELECT reaso... " />
-          </folding>
+        <state relative-caret-position="611">
+          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameCatalog/Templates/games/statistics.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GameCatalog/Repository/ControllersRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        <state relative-caret-position="399">
+          <caret line="54" column="16" lean-forward="false" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
           <folding>
-            <marker date="1515789497076" expanded="true" signature="502:545" ph="SELECT id, n... controllers" />
-            <marker date="1515789497076" expanded="true" signature="741:779" ph="SELECT id, n... categories" />
-            <marker date="1515789497076" expanded="true" signature="1002:1412" ph="SELECT connt... controllers" />
+            <marker date="1515862023016" expanded="true" signature="536:579" ph="SELECT id, n... controllers" />
+            <marker date="1515862023016" expanded="true" signature="775:813" ph="SELECT id, n... categories" />
+            <marker date="1515862023016" expanded="true" signature="1024:1445" ph="SELECT contr... controllers" />
           </folding>
         </state>
       </provider>

@@ -10,6 +10,7 @@ namespace GameCatalog\Service;
 
 
 use GameCatalog\DTO\ControllersDTO;
+use GameCatalog\DTO\StatisticDTO;
 use GameCatalog\Repository\ControllersRepositoryInterface;
 
 class ControllersService implements ControllersServiceInterface
@@ -41,4 +42,8 @@ class ControllersService implements ControllersServiceInterface
         return $this->controllersRepository->findOne($id);
     }
 
+    public function report(): \Generator
+    {
+        return $this->controllersRepository->report();
+    }
 }
