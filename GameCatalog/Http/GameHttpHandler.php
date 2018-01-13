@@ -107,7 +107,7 @@ class GameHttpHandler extends HttpHandlerAbstract
             $this->gameService->add($game);
             $this->redirect('games.php');
         } catch (\Exception $e) {
-            $dto = $this->binder($formData, GameErrorDTO::class);
+            $dto = $this->binder($formData, GameDTO::class);
             $this->render("games/add", $dto, [$e->getMessage()]);
         }
     }

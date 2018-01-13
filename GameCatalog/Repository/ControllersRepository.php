@@ -11,6 +11,7 @@ namespace GameCatalog\Repository;
 
 use Database\DatabaseInterface;
 use GameCatalog\DTO\ControllersDTO;
+use GameCatalog\DTO\StatisticDTO;
 
 class ControllersRepository implements ControllersRepositoryInterface
 {
@@ -45,26 +46,24 @@ class ControllersRepository implements ControllersRepositoryInterface
 
     public function report(): \Generator
     {
-        $query = "
-           SELECT
-                conntrollers.id,
-                name,
-                COUNT(games.id) AS taskCount
+        $query = "SELECT
+                controllers.name as controllers,
+                COUNT(games.id) AS games,
+                TIME_FORMAT(sum(games.playtime), \"%i:%s\") as playtime
             FROM
                 controllers
             INNER JOIN
                 games
             ON
-                games.controller_id = controllers.id
+               controllers.id = games.controller_id  
             GROUP BY
-                cotrollers.id
-            ORDER BY
-                COUNT(tasks.id) DESC,
-                categories.name ASC
+                controllers.id
+                Order by controllers.name              
+           
         ";
 
         return $this->db->query($query)
             ->execute()
-            ->fetch(CategoryDTO::class);
+            ->fetch(StatisticDTO::class);
     }
 }

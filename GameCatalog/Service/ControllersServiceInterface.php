@@ -10,6 +10,7 @@ namespace GameCatalog\Service;
 
 
 use GameCatalog\DTO\ControllersDTO;
+use GameCatalog\DTO\StatisticDTO;
 
 interface ControllersServiceInterface
 {
@@ -20,5 +21,5 @@ interface ControllersServiceInterface
 
     public function view(int $id): ControllersDTO;
 
-
+    public function report(): \Generator;
 }

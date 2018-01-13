@@ -15,7 +15,7 @@
         <?php endforeach; ?>
     </select><br/>
     Last Played:<input type="date" value="<?= $data->getGame()->getLastPlayed(); ?>" name="last_played" required="required"/><br/>
-    Playtime:<input type="number" value="<?= $data->getGame()->getPlayTime(); ?>" name="playtime" required="required"/><br/>
+    Playtime:<input type="time" value="<?= $data->getGame()->getPlayTime(); ?>" name="playtime" required="required"/><br/>
     <input type="submit" name="save" value="Save"/>
 </form>
 <a href="games.php">List</a>
