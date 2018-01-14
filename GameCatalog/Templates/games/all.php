@@ -1,5 +1,6 @@
 <?php /** @var \GameCatalog\DTO\GameDTO[] $data */ ?>
-<?php var_dump($_SESSION); ?>
+<?php var_dump($_GET['games_id']); ?>
+
 <h1>All Games</h1>
 <table border="1">
     <thead>
@@ -15,7 +16,7 @@
     </tr>
     </thead>
     <?php foreach ($data as $game): ?>
-        <?php if (isset($_SESSION['game_id']) && $_SESSION['game_id'] == $game->getId()): ?>
+        <?php if (isset($_GET['games_id']) && $_GET['games_id'] == $game->getId()): ?>
             <tr style="background-color:lightgreen">
         <?php else: ?>
             <tr>

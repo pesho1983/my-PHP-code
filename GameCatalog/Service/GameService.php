@@ -32,8 +32,6 @@ class GameService implements GameServiceInterface
     public function add(GameDTO $game): bool
     {
         $this->gameRepository->insert($game);
-        $_SESSION['game_id'] = $game->getId();
-        var_dump($_SESSION['game_id']);
         return true;
     }
 

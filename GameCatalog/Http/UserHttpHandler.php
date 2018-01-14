@@ -51,7 +51,7 @@ class UserHttpHandler extends HttpHandlerAbstract
             $this->userService->login($formData['username'], $formData['password']);
             $this->redirect("games.php");
         } catch (\Exception $e) {
-            $user = $this->binder->bind($formData, UserDTO::class);
+            $user = $this->binder->bind($formData, RegisterUserDTO::class);
             $this->render("users/login", $user, [$e->getMessage()]);
         }
     }
