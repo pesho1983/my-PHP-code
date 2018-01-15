@@ -4,7 +4,7 @@
     <p style="color:green">Congratulations, <?= htmlspecialchars($_SESSION['username']); ?>. Login in our platform to
         manage your games.</p>
 <?php endif; ?>
-<?php session_destroy(); ?>
+<?php unset($_SESSION['username']); ?>
 <?php foreach ($errors as $error): ?>
     <p style="color:red"><?= $error; ?></p>
 <?php endforeach; ?>

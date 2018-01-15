@@ -24,7 +24,7 @@ class UserService implements UserServiceInterface
         $user = $this->userRepository->findOneByUsername($username);
 
         if (null === $user) {
-            throw new \Exception("Username does not exist.You might want to register first!");
+            throw new \Exception("Username does not exist.You might want to <a href=register.php>register</a> first!");
         }
 
         $passwordHash = $user->getPassword();

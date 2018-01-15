@@ -76,7 +76,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-<<<<<<< HEAD
+    <<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="ControllersRepository.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GameCatalog/Repository/ControllersRepository.php">
@@ -93,9 +93,9 @@
         </entry>
       </file>
     </leaf>
-=======
+    =======
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
->>>>>>> cb6ef0ba3da2acd2678a1aae8e2bc907df4f14e7
+    >>>>>>> cb6ef0ba3da2acd2678a1aae8e2bc907df4f14e7
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">

@@ -39,9 +39,12 @@ class GameService implements GameServiceInterface
     {
         $gameFromDb = $this->gameRepository->findOne($id);
 
-        if (null === $gameFromDb) {
-            throw new \Exception("Game does not exist");
+        if ($gameFromDb->getPlayTime() < 0) {
+            throw new \Exception("Playtime must be positive!");
         }
+       //if (null === $gameFromDb) {
+       //    throw new \Exception("Game does not exist");
+       //}
         return $this->gameRepository->update($game, $id);
     }
 

@@ -58,7 +58,6 @@ class GameHttpHandler extends HttpHandlerAbstract
 
             $editDto = new EditGameDTO();
             $editDto->setGame($game);
-
             $editDto->setControllers($controllersService->getAll());
             $this->render("games/edit", $editDto);
         } else {
@@ -86,7 +85,7 @@ class GameHttpHandler extends HttpHandlerAbstract
             $this->gameService->edit($game, $getData['id']);
             $this->redirect('games.php');
         } catch (\Exception $e) {
-            $dto = $this->binder($formData, GameDTO::class);
+            $dto = $this->binder($formData, GameErrorDTO::class);
             $this->render("games/edit", $dto, [$e->getMessage()]);
         }
     }
@@ -107,7 +106,7 @@ class GameHttpHandler extends HttpHandlerAbstract
             $this->gameService->add($game);
             $this->redirect('games.php');
         } catch (\Exception $e) {
-            $dto = $this->binder($formData, GameDTO::class);
+            $dto = $this->binder($formData, GameErrorDTO::class);
             $this->render("games/add", $dto, [$e->getMessage()]);
         }
     }

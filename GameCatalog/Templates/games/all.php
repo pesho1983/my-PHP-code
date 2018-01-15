@@ -1,6 +1,4 @@
 <?php /** @var \GameCatalog\DTO\GameDTO[] $data */ ?>
-<?php var_dump($_GET['games_id']); ?>
-
 <h1>All Games</h1>
 <table border="1">
     <thead>

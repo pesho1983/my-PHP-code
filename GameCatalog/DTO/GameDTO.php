@@ -11,6 +11,9 @@ namespace GameCatalog\DTO;
 
 class GameDTO
 {
+    const FIELDS_MAX_LENGTH = 255;
+    const TITLE_MIN_LENGTH = 1;
+
     private $id;
     private $title;
     private $publisher;
@@ -53,6 +56,12 @@ class GameDTO
      */
     public function setTitle($title)
     {
+        DTOValidator::validate(
+            self::TITLE_MIN_LENGTH,
+            self::FIELDS_MAX_LENGTH,
+            $title,
+            "Title must be between " . self::TITLE_MIN_LENGTH . " and " . self::FIELDS_MAX_LENGTH . " characters long!"
+        );
         $this->title = $title;
     }
 
